@@ -1,0 +1,42 @@
+# Ignorar configuración y caché de Visual Studio
+Makand/.vs/
+Makand/*.user
+Makand/*.suo
+Makand/*.userosscache
+Makand/*.sln.docstates
+
+# Ignorar carpetas de compilación
+Makand/bin/
+Makand/obj/
+
+# Ignorar configuraciones de publicación
+Makand/*.Publish.xml
+Makand/*.pubxml
+Makand/*.publishproj
+
+# Ignorar archivos de logs y temporales
+Makand/*.log
+Makand/*.tlog
+Makand/*.tmp
+
+# Ignorar resultados de pruebas
+Makand/TestResult*/
+Makand/*.VisualState.xml
+
+# Ignorar caches de NuGet
+Makand/*.nuget.props
+Makand/*.nuget.targets
+Makand/project.lock.json
+Makand/*.nupkg
+
+# Ignorar configuraciones de IDEs
+Makand/.vscode/
+Makand/.idea/
+
+# Ignorar archivos del sistema
+Makand/Thumbs.db
+Makand/ehthumbs.db
+Makand/Desktop.ini
+
+# Ignorar configuración local
+Makand/launchSettings.json
