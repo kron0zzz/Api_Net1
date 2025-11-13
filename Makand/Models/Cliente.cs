@@ -1,7 +1,10 @@
-﻿namespace Makand.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Makand.Models
 {
     public class Cliente
     {
+        [Key]
         public int Nro_documento { get; set; }
         public int Tipo_documento { get; set; }
         public string Nombre_completo { get; set; }
