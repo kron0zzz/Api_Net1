@@ -7,8 +7,10 @@ namespace Makand.Data
     {
         public MakandContext(DbContextOptions<MakandContext> options) : base(options) { }
         public DbSet<Cliente> Clientes { get; set; }
+        
+        
+        
         public DbSet<Empleado> Empleados { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configuración del modelo Empleado
