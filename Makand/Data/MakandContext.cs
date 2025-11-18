@@ -24,5 +24,8 @@ namespace Makand.Data
                 .Property(e => e.Nro_documento)
                 .ValueGeneratedNever();
         }
+
+
+        public DbSet<Equipo> Equipos { get; set; }
     }
 }
